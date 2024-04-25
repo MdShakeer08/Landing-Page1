@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Developer Internship at Cognifyz Technologies</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Simple navigation menu -->
+    <nav class="nav">
+        <ul>
+            <li><a href="#Home">Home</a> </li>
+            <li><a href="#about">Introduction</a></li>
+            <li><a href="#text1">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div id="Home">
+        <img src="image.jpg" alt="image">
+        <div class="text">Web Developer Internship Opportunities at Cognifyz Technologies</div>
+    </div>  
+
+    <section id="about">
+        <!-- introduction -->
+    <div id="Introduction">
+        <h2>Overview of Internship Program and duration</h2>
+        <br>
+        <p><strong>Brief introduction : </strong> Cognifyz Technologies is a leading technology company that
+        specializes in the dynamic field of data science and excels in delivering impactful projects and solution. <br> <br>
+        Cognifyz Technologies offers a dynamic internship program for aspiring web developers. </p><br>
+    </div>
+     
+    <!-- highlights -->
+    <div class="highlights">
+        <p><strong>Heighlight : </strong> Hands-on experience with web development technologies Gain real-world experience and valuable mentorship while working on exciting projects.</p><br>
+        <p>Cognifyz Technologies also provides training programs to enhance skills and knowledge in these areas</p><br>
+        <p>Opportunity to work on real projects and build your portfolio</p><br>
+        <p>The company focuses on delivering innovative and cutting-edge solutions to meet the evolving needs of businesses.</p><br>
+    </div>
+
+    <!-- qualifications -->
+    <div class="qualifications">
+        <p><strong>Qualifications : </strong>Proficiency in HTML, CSS, and JavaScript</p><br>
+        <p>Knowledge of front-end frameworks like React or Angular</p><br>
+        <p>Experience with bootstrp or CSS tailwind</p><br>
+    </div>
+
+  <!-- benefits of Internship -->
+    <div class="benefits">
+        <p><strong>benefits of Internship : </strong>Internships offer a range of benefits for both students and employers. Some key benefits include: </p><br>
+        <p>Practical Experience: Internships provide hands-on experience in a real-world work environment, allowing interns to apply theoretical knowledge gained in the classroom to practical situations.</p><br>
+        <p>Skill Development: Internships help develop and enhance job-specific skills, as well as soft skills such as communication, teamwork, and time management.</p><br>
+        <p>Networking Opportunities: Internships provide the opportunity to build professional relationships with industry experts and potential future employers, which can be valuable for future career growth.</p><br>
+        <p>Resume Building: Internship experience looks impressive on a resume and can make candidates more competitive in the job market.</p><br>
+        <p>Exploration of Career Paths: Internships allow individuals to explore different career paths within a specific field, helping them make more informed decisions about their future careers.</p><br>
+    </div>
+
+    
+    <!-- Call to Action -->
+  <div id="cta">
+    <button type="submit" onclick="applyNow()">
+       Apply Now
+    </button>
+  </div>
+</section>
+
+
+<section id="text1">
+    <!-- Contact form -->
+    <div id="Contact1">
+        <h3>Contact Us</h3>
+        <form>
+          <label for="name">Name : </label>
+          <input type="text" id="name" name="name" required><br>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+      
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required><br>
+      
+          <label for="address">Address:</label><br>
+          <textarea id="address" name="address" rows="4" required></textarea><br>
+          
+          <button type="submit" value="Submit" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+</section>
+    
+
+<footer>
+    <!-- Link -->
+    <div>
+        <p>To find out more information, please Contact here</p>
+        <a href="https://www.linkedin.com/company/cognifyz-techonologies/people/?viewAsMember=true">LinkedIn : www.linkedin.com</a><br>
+
+        <a href="https://www.cognifyztechonologies@gmail.com">Email : cognifyztechonologies@gmail.com </a> <br>
+    </div>
+</footer>
+<script>
+    function applyNow() {
+        alert("Application Submitted!");
+    }
+
+    function submitForm() {
+        alert("Form Submitted!");
+    }
+</script>
+</body>
+</html>

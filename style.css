@@ -1,0 +1,126 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  /* Navigation menu styles */
+  nav {
+    background-color: #170118;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 20px;
+    background-color: rgb(250, 223, 192);
+  }
+  
+  #Home {
+    position: relative;
+    text-align: center;
+    color: rgb(252, 248, 248);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 49px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px  rgb(253, 1, 1);
+  }
+
+  img {
+    width: 100%;
+    height: 500px;
+    display: block;
+  }
+  
+  /* Form styles */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    
+  }
+  #text1 {
+    background-color: #f5a1af;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #2384ec;
+    color: #f7f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-top: 3%;
+  }
+  
+  button:hover {
+    background-color: #050505;
+  }
+  
+
+
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
